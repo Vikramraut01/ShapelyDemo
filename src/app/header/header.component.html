@@ -1,0 +1,61 @@
+<header>
+  <nav class="navig">
+    <h2 class="logo">Shapely Demo</h2>
+    <ul>
+      <a routerLink="/">
+        <li>HOME</li>
+      </a>
+      <a routerLink="/blog">
+        <li>BLOG</li>
+      </a>
+      <a routerLink="/portfolio">
+        <li>PORTFOLIO</li>
+      </a>
+      <a id="about" routerLink="/about">
+        <li [matMenuTriggerFor]="menu">ABOUTTHETESTS</li>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item routerLink="alignment">
+            Page Image Alignment
+          </button>
+          <button mat-menu-item routerLink="foramatting">
+            Page Markup And Formatting
+          </button>
+          <button mat-menu-item routerLink="float">Clearing Floats</button>
+          <button mat-menu-item routerLink="comments">
+            Page with comments
+          </button>
+          <button mat-menu-item routerLink="disable">
+            Page with comments disabled
+          </button>
+        </mat-menu>
+      </a>
+      <a id="about">
+        <a mat-button [matMenuTriggerFor]="animals" routerLink="level1"
+          >Level1</a
+        >
+        <mat-menu #animals="matMenu">
+          <a
+            mat-menu-item
+            [matMenuTriggerFor]="vertebrates"
+            routerLink="level2"
+          >
+            Level2
+          </a>
+          <a mat-menu-item routerLink="level2a">Level2a</a>
+          <a mat-menu-item routerLink="level2b">Level2b</a>
+        </mat-menu>
+
+        <mat-menu #vertebrates="matMenu">
+          <a mat-menu-item routerLink="level3">Level3</a>
+          <a mat-menu-item routerLink="level3a">level3a</a>
+          <a mat-menu-item routerLink="level3b">Level3b</a>
+        </mat-menu>
+      </a>
+      <a routerLink="/shop">
+        <li>SHOP</li>
+      </a>
+    </ul>
+
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </nav>
+</header>

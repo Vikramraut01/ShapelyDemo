@@ -1,0 +1,88 @@
+#blog_top {
+  height: 35%;
+  background-color: rgba(220, 220, 220, 0.562);
+}
+#h_tag {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+#h_tag h1 {
+  font-size: xx-large;
+}
+#news_img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#news_img {
+  padding-top: 50px;
+  background-image: url("https://149842022.v2.pressablecdn.com/shapely/wp-content/uploads/sites/59/2016/03/photo-1453282716202-de94e528067c-1.jpg");
+  background-size: 80%;
+  background-position: right;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end;
+}
+#im_down {
+  height: 80px;
+  width: 400px;
+  background-color: white;
+  margin-bottom: 60px;
+  margin-right: 350px;
+  text-align: center;
+  padding-top: 30px;
+}
+#im_down2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+}
+#im_down3 img {
+  height: 250px;
+  width: 350px;
+}
+#down3_1 {
+  align-items: center;
+  align-content: center;
+}
+.bg {
+  height: 60px;
+  width: 200px;
+  border: none;
+  background-color: rgba(0, 0, 255, 0.315);
+  padding: 10px 10px;
+}
+#Search {
+  margin-top: 20px;
+}
+#im_right img {
+  height: 40px;
+  width: 40px;
+}
+#im_rigth4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#im_ringt_C {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.recentt {
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.cate {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

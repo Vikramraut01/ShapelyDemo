@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100;300&display=swap");
+
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  text-decoration: none;
+  margin-left: 400px;
+}
+ul a {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  padding: 10px;
+}
+.navig {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul li:hover {
+  border-bottom: 2px solid white;
+}
+.container2 {
+  background-image: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+
+  place-items: center;
+
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container2 .img {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+.container2 .img .head1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.bg2 {
+  height: 60px;
+  width: 200px;
+  background-color: transparent;
+  padding: 10px 10px;
+  border-color: white;
+}
+.bg {
+  height: 60px;
+  width: 200px;
+  border: none;
+  background-color: rgba(0, 0, 255, 0.315);
+  padding: 10px 10px;
+}
+.bg:hover {
+  background-color: rgba(0, 0, 255, 0.582);
+  color: black;
+}
+.bg2:hover {
+  background-color: rgba(255, 255, 255, 0.712);
+  color: black;
+}
+.mac_section {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.macright {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.mac1 {
+  height: 350px;
+  width: 600px;
+}
+.para {
+  width: 400px;
+}
+.macright button {
+  height: 60px;
+  width: 200px;
+  background-color: rgba(117, 117, 250, 0.534);
+}
+
+.macright button:hover {
+  background-color: rgba(0, 0, 255, 0.486);
+}
+.portfolio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(128, 128, 128, 0.068);
+  height: 100vh;
+}
+.img_part img {
+  height: 350px;
+}
+
+.text_part {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.text_part p {
+  width: 400px;
+}
+.text_part button {
+  border: none;
+  height: 60px;
+  width: 200px;
+  background-color: rgba(117, 117, 250, 0.534);
+}
+.text_part button:hover {
+  background-color: rgba(0, 0, 255, 0.445);
+}
+.parallax {
+  background-image: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg");
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.content {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.content p {
+  width: 800px;
+}
+.content button {
+  height: 60px;
+  width: 200px;
+  background-color: rgba(117, 117, 250, 0.863);
+  border: none;
+}
+.tops {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  align-items: center;
+  padding: 50px 50px;
+}
+
+.tops p {
+  width: 900px;
+}
+
+.tops button {
+  height: 60px;
+  width: 200px;
+  background-color: rgba(117, 117, 250, 0.863);
+  border: none;
+}
+
+.litmus {
+  background-color: rgba(128, 128, 128, 0.137);
+}
+#cont img {
+  width: 100%;
+}
+.black_box {
+  margin-top: 0%;
+  height: 200px;
+  background-color: black;
+}
+.text_content {
+  padding-top: 70px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+mat-grid-tile img {
+  height: 100%;
+  width: 100%;
+}
+.feedback {
+  background-image: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg");
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.ftext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+#slider {
+  background-image: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 60%;
+  color: white;
+}
+
+mat-grid-tile {
+  height: 200px;
+}
+
+mat-grid-list {
+  background-color: black;
+}
+
+#curser1 {
+  text-align: center;
+}
+#slider p {
+  justify-content: center;
+  width: 80%;
+  padding-left: 300px;
+}
+#curser1 img {
+  border-radius: 100%;
+}
+#log2 img {
+  width: 20%;
+}
+#log1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.last {
+  height: 40%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#ls2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  background-color: rgba(128, 128, 128, 0.103);
+}
+#butl {
+  height: 50px;
+  width: 200px;
+  background-color: rgba(117, 117, 250, 0.534);
+  border: none;
+}
+#but3 {
+  display: flex;
+  justify-content: center;
+}
+#ls3 {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+#ls31 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+}
+#ls32 {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 100px;
+}
+
+#imgel {
+  width: 100%;
+}
+#cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

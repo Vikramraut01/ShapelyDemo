@@ -1,0 +1,147 @@
+<div class="first">
+  <h1>Level3b</h1>
+</div>
+<div class="row">
+  <div class="col-md-8">
+    <div class="container">
+      <h1>Level3b</h1>
+      <p>(lorem ipsum)</p>
+    </div>
+    <br />
+    <br />
+    <div class="leave">
+      <h1>Leave a Reply</h1>
+      <p>
+        Your email address will not be published. Required fields are marked *
+      </p>
+      <form [formGroup]="login" (ngSubmit)="send()">
+        <div class="form-floating">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingName"
+            placeholder="YourName"
+            formControlName="name"
+          />
+          <label for="floatingName">Name</label>
+        </div>
+        <br />
+        <div class="form-floating mb-3">
+          <input
+            type="email"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+            formControlName="mail"
+          />
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingWeb"
+            placeholder="Your website"
+            formControlName="web"
+          />
+          <label for="floatingWeb">Websites</label>
+        </div>
+        <br />
+        <br />
+        <div class="form-floating">
+          <textarea
+            class="form-control"
+            placeholder="Leave a comment here"
+            id="floatingTextarea"
+            formControlName="comment"
+          ></textarea>
+          <label for="floatingTextarea">Comments</label>
+        </div>
+        <br />
+        <br />
+        <input class="btn btn-primary" type="submit" value="Submit" />
+      </form>
+      <br />
+      <br />
+    </div>
+  </div>
+  <div class="col-md-4">
+    <form class="d-flex" role="search" id="Search">
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    <br />
+    <h4>Top Posts</h4>
+    <div class="row" id="im_right">
+      <div class="col-md-4" id="im_rigth4">
+        <img
+          src="https://i0.wp.com/colorlibhub.com/shapely/wp-content/uploads/sites/59/2016/03/photo-1440557653082-e8e186733eeb-1.jpg"
+        />
+        <img
+          src="https://i0.wp.com/colorlibhub.com/shapely/wp-content/uploads/sites/59/2016/03/photo-1453282716202-de94e528067c-1.jpg"
+        />
+        <img
+          src="https://i0.wp.com/colorlibhub.com/shapely/wp-content/uploads/sites/59/2016/03/photo-1433878455169-4698e60005b1-1.jpg"
+        />
+        <img
+          src="https://i0.wp.com/colorlibhub.com/shapely/wp-content/uploads/sites/59/2016/03/photo-1449168013943-3a15804bb41c-1.jpg"
+        />
+        <img
+          src="https://i0.wp.com/colorlibhub.com/shapely/wp-content/uploads/sites/59/2016/03/photo-1430329429612-babb42f88673-1.jpg"
+        />
+      </div>
+      <div class="col-md-6" id="im_ringt_C">
+        <a>Template: More Tag</a>
+        <a>Template: Sticky</a>
+        <a>Template: Featured Image (Horizontal)</a>
+        <a>Hello world!</a>
+        <a>Template: Featured Image (Vertical)</a>
+      </div>
+    </div>
+    <br />
+    <div class="recentt">
+      <h2>Recent Posts</h2>
+      <a>Template: More Tag </a>
+      <a>Hello world! </a>
+      <a>Markup: HTML Tags and Formatting</a>
+      <a>Markup: Image Alignment</a>
+      <a>Markup: Text Alignment</a>
+    </div>
+    <div class="cate">
+      <h2>Categories</h2>
+      <a>Edge Case</a>
+      <a>Markup</a>
+      <a>Media</a>
+      <a>News</a>
+      <a>Post Formats</a>
+      <a>Template</a>
+    </div>
+  </div>
+</div>
+<div class="row" id="ls3">
+  <div class="col-md-6" id="ls31">
+    <h4>Theme by Colorlib Powered by WordPress</h4>
+  </div>
+  <div class="col-md-6" id="ls32">
+    <a href="https://www.facebook.com/">
+      <i class="fa-brands fa-facebook"></i>
+    </a>
+    <a href="https://twitter.com/">
+      <i class="fa-brands fa-twitter"></i>
+    </a>
+    <a href="https://www.linkedin.com/home">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+    <a href="https://www.youtube.com/">
+      <i class="fa-brands fa-youtube"></i>
+    </a>
+    <a href="https://www.instagram.com/accounts/login/">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+  </div>
+</div>

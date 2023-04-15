@@ -1,0 +1,62 @@
+<div id="fbox">
+  <div id="inns">
+    <form [formGroup]="loginform" (ngSubmit)="login()">
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">FirstName</label>
+        <input
+          type="text"
+          class="form-control"
+          id="exampleInputPassword1"
+          formControlName="firstName"
+        />
+      </div>
+      <span
+        style="color: red"
+        *ngIf="firstName && firstName.invalid && firstName.touched"
+        >input not valid</span
+      >
+
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">LastName</label>
+        <input
+          type="text"
+          class="form-control"
+          id="exampleInputPassword1"
+          formControlName="lastName"
+        />
+      </div>
+      <span
+        style="color: red"
+        *ngIf="lastName && lastName.invalid && lastName.touched"
+        >This input is not valid</span
+      >
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          formControlName="email"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+          formControlName="password"
+        />
+      </div>
+
+      <button
+        type="submit"
+        class="btn btn-primary"
+        [disabled]="loginform.invalid"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,113 @@
+.ftext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+#slider {
+  /* display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; */
+
+  background-image: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 60%;
+  color: white;
+}
+
+mat-grid-tile {
+  height: 200px;
+}
+
+mat-grid-list {
+  background-color: black;
+}
+
+#curser1 {
+  text-align: center;
+}
+#slider p {
+  justify-content: center;
+  width: 80%;
+  padding-left: 300px;
+}
+#curser1 img {
+  border-radius: 100%;
+}
+#log2 img {
+  width: 20%;
+}
+#log1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.last {
+  height: 40%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#ls2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  background-color: rgba(128, 128, 128, 0.103);
+}
+#butl {
+  height: 50px;
+  width: 200px;
+  background-color: rgba(117, 117, 250, 0.534);
+  border: none;
+}
+#but3 {
+  display: flex;
+  justify-content: center;
+}
+#ls3 {
+  height: 200px;
+  width: 100%;
+
+  color: white;
+}
+#ls31 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+}
+#ls32 {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 100px;
+}
+
+#imgel {
+  width: 100%;
+}
+#cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+mat-grid-tile img {
+  height: 100%;
+  width: 100%;
+}
+#first {
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(220, 220, 220);
+}

@@ -1,0 +1,24 @@
+#fbox {
+  height: 100%;
+  background-image: url("https://www.shutterstock.com/image-vector/global-internet-network-security-digital-260nw-604575887.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#inns form {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+#inns form input {
+  box-shadow: 5px 5px 5px rgba(109, 104, 102, 0.514);
+  background-color: rgba(127, 255, 212, 0.459);
+  border: none;
+  border-radius: 10px;
+}
+#inns form label {
+  font-size: 100%;
+  font-weight: 500;
+}

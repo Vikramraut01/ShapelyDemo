@@ -1,0 +1,289 @@
+<div class="first">
+  <h1>Page Image Alignment</h1>
+</div>
+<div class="row">
+  <div class="col-md-8">
+    <div id="left">
+      <div class="container" id="left_down">
+        <h1>Page Image Alignment</h1>
+        <p>
+          Welcome to image alignment! The best way to demonstrate the ebb and
+          flow of the various image positioning options is to nestle them
+          snuggly among an ocean of words. Grab a paddle and let’s get started.
+        </p>
+        <p>
+          On the topic of alignment, it should be noted that users can choose
+          from the options of None, Left, Right, and Center. In addition, they
+          also get the options of Thumbnail, Medium, Large & Fullsize.
+        </p>
+        <img
+          src="https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2013/03/image-alignment-580x300.jpg"
+        />
+        <p>The image above happens to be centered.</p>
+      </div>
+      <div class="container">
+        <div class="imd">
+          <img
+            src="https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2013/03/image-alignment-150x150.jpg"
+          />
+
+          The rest of this paragraph is filler for the sake of seeing the text
+          wrap around the 150×150 image, which is left aligned. As you can see
+          the should be some space above, below, and to the right of the image.
+          The text should not be creeping on the image. Creeping is just not
+          right. Images need breathing room too. Let them speak like you words.
+          Let them do their jobs without any hassle from the text. In about one
+          more sentence here, we’ll see that the text moves from the right of
+          the image down below the image in seamless transition. Again, letting
+          the do it’s thang. Mission accomplished!
+        </div>
+      </div>
+      <br />
+      <div id="noalign">
+        <p>And now for a massively large image. It also has no alignment.</p>
+        <img
+          src="https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2013/03/image-alignment-1200x4002.jpg"
+        />
+      </div>
+      <div>
+        <br />
+        <p>
+          The image above, though 1200px wide, should not overflow the content
+          area. It should remain contained with no visible disruption to the
+          flow of content.
+        </p>
+        <div id="hanging">
+          <img
+            src="https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2013/03/image-alignment-300x200.jpg"
+          />
+          <p>
+            And now we’re going to shift things to the right align. Again, there
+            should be plenty of room above, below, and to the left of the image.
+            Just look at him there… Hey guy! Way to rock that right side. I
+            don’t care what the left aligned image says, you look great. Don’t
+            let anyone else tell you differently.
+          </p>
+          <p>
+            In just a bit here, you should see the text start to wrap below the
+            right aligned image and settle in nicely. There should still be
+            plenty of room and everything should be sitting pretty. Yeah… Just
+            like that. It never felt so good to be right.
+          </p>
+        </div>
+        <br />
+        <br />
+        And just when you thought we were done, we’re going to do them all over
+        again with captions!
+        <div id="boxp">
+          <div id="box">
+            <img
+              src="https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2013/03/image-alignment-580x300.jpg"
+            />
+            <p>Look at 580×300 getting some caption love.</p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <p>
+        The image above happens to be centered. The caption also has a link in
+        it, just to see if it does anything funky.
+      </p>
+      <div id="itty">
+        <div id="itty_im">
+          <img
+            src="https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2013/03/image-alignment-150x150.jpg"
+          />
+          Itty-bitty caption.
+        </div>
+      </div>
+      <div>
+        <p>
+          The rest of this paragraph is filler for the sake of seeing the text
+          wrap around the 150×150 image, which is left aligned.
+        </p>
+        <p>
+          As you can see the should be some space above, below, and to the right
+          of the image. The text should not be creeping on the image. Creeping
+          is just not right. Images need breathing room too. Let them speak like
+          you words. Let them do their jobs without any hassle from the text. In
+          about one more sentence here, we’ll see that the text moves from the
+          right of the image down below the image in seamless transition. Again,
+          letting the do it’s thang. Mission accomplished!
+        </p>
+      </div>
+      <br />
+      <br />
+      And now for a massively large image. It also has no alignment.
+      <div class="mbox">
+        <img
+          src="https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2013/03/image-alignment-1200x4002.jpg"
+        />
+        <p>Massive image comment for your eyeballs.</p>
+      </div>
+      <br />
+      <p>
+        The image above, though 1200px wide, should not overflow the content
+        area. It should remain contained with no visible disruption to the flow
+        of content.
+      </p>
+      <div id="ldiv">
+        <div class="im_div"><p>Feels good to be right all the time.</p></div>
+        <p>
+          And now we’re going to shift things to the right align. Again, there
+          should be plenty of room above, below, and to the left of the image.
+          Just look at him there… Hey guy! Way to rock that right side. I don’t
+          care what the left aligned image says, you look great. Don’t let
+          anyone else tell you differently.
+        </p>
+        <p>
+          In just a bit here, you should see the text start to wrap below the
+          right aligned image and settle in nicely. There should still be plenty
+          of room and everything should be sitting pretty. Yeah… Just like that.
+          It never felt so good to be right.
+        </p>
+        <p>
+          And that’s a wrap, yo! You survived the tumultuous waters of
+          alignment. Image alignment achievement unlocked!
+        </p>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <div class="leave">
+        <h1>Leave a Reply</h1>
+        <p>
+          Your email address will not be published. Required fields are marked *
+        </p>
+        <form [formGroup]="login" (ngSubmit)="send()">
+          <div class="form-floating">
+            <input
+              type="text"
+              class="form-control"
+              id="floatingName"
+              placeholder="YourName"
+              formControlName="name"
+            />
+            <label for="floatingName">Name</label>
+          </div>
+          <br />
+          <div class="form-floating mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="name@example.com"
+              formControlName="mail"
+            />
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input
+              type="text"
+              class="form-control"
+              id="floatingWeb"
+              placeholder="Your website"
+              formControlName="web"
+            />
+            <label for="floatingWeb">Websites</label>
+          </div>
+          <br />
+          <br />
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="floatingTextarea"
+              formControlName="comment"
+            ></textarea>
+            <label for="floatingTextarea">Comments</label>
+          </div>
+          <br />
+          <br />
+          <input class="btn btn-primary" type="submit" value="Submit" />
+        </form>
+        <br />
+        <br />
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <form class="d-flex" role="search" id="Search">
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    <br />
+    <h4>Top Posts</h4>
+    <div class="row" id="im_right">
+      <div class="col-md-4" id="im_rigth4">
+        <img
+          src="https://i0.wp.com/colorlibhub.com/shapely/wp-content/uploads/sites/59/2016/03/photo-1440557653082-e8e186733eeb-1.jpg"
+        />
+        <img
+          src="https://i0.wp.com/colorlibhub.com/shapely/wp-content/uploads/sites/59/2016/03/photo-1453282716202-de94e528067c-1.jpg"
+        />
+        <img
+          src="https://i0.wp.com/colorlibhub.com/shapely/wp-content/uploads/sites/59/2016/03/photo-1433878455169-4698e60005b1-1.jpg"
+        />
+        <img
+          src="https://i0.wp.com/colorlibhub.com/shapely/wp-content/uploads/sites/59/2016/03/photo-1449168013943-3a15804bb41c-1.jpg"
+        />
+        <img
+          src="https://i0.wp.com/colorlibhub.com/shapely/wp-content/uploads/sites/59/2016/03/photo-1430329429612-babb42f88673-1.jpg"
+        />
+      </div>
+      <div class="col-md-6" id="im_ringt_C">
+        <a>Template: More Tag</a>
+        <a>Template: Sticky</a>
+        <a>Template: Featured Image (Horizontal)</a>
+        <a>Hello world!</a>
+        <a>Template: Featured Image (Vertical)</a>
+      </div>
+    </div>
+    <br />
+    <div class="recentt">
+      <h2>Recent Posts</h2>
+      <a>Template: More Tag </a>
+      <a>Hello world! </a>
+      <a>Markup: HTML Tags and Formatting</a>
+      <a>Markup: Image Alignment</a>
+      <a>Markup: Text Alignment</a>
+    </div>
+    <div class="cate">
+      <h2>Categories</h2>
+      <a>Edge Case</a>
+      <a>Markup</a>
+      <a>Media</a>
+      <a>News</a>
+      <a>Post Formats</a>
+      <a>Template</a>
+    </div>
+  </div>
+</div>
+<div class="row" id="ls3">
+  <div class="col-md-6" id="ls31">
+    <h4>Theme by Colorlib Powered by WordPress</h4>
+  </div>
+  <div class="col-md-6" id="ls32">
+    <a href="https://www.facebook.com/">
+      <i class="fa-brands fa-facebook"></i>
+    </a>
+    <a href="https://twitter.com/">
+      <i class="fa-brands fa-twitter"></i>
+    </a>
+    <a href="https://www.linkedin.com/home">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+    <a href="https://www.youtube.com/">
+      <i class="fa-brands fa-youtube"></i>
+    </a>
+    <a href="https://www.instagram.com/accounts/login/">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+  </div>
+</div>
